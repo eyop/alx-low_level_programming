@@ -5,7 +5,11 @@
 #include <stdlib.h>
 
 #include <time.h>
+/* more headers goes there */
 
+
+
+/* betty style doc for function main goes there */
 int main(void)
 
 {
@@ -22,7 +26,7 @@ int main(void)
 
 	{
 
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 
 	}
 
@@ -30,7 +34,7 @@ int main(void)
 
 	{
 
-		printf("%d is zero\n",n);
+		printf("%d is zero\n", n);
 
 	}
 
@@ -38,7 +42,7 @@ int main(void)
 
 	{
 
-		printf("%d is positive\n",n);
+		printf("%d is positive\n", n);
 
 	}
 
