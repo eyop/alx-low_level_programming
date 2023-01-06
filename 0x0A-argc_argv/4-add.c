@@ -22,12 +22,15 @@ int check_num(char *str)
 		count++;
 		return (1);
 	}
-
+/**
+ * main - Print the name of the program
+ * @argc: Count arguments
+ * @argv: Arguments
+ * Return: Always 0 (Success)
+ */
 int main(int argc, char *argv[])
 {
-	int count;
-	int str_to_int;
-	int sum = 0;
+	int count, str_to_int, sum = 0;
 
 	count = 1;
 	while (count < argc)
