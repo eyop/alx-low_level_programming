@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "list.h"
 
 /**
  * reverse_listint - reverses a linked list
